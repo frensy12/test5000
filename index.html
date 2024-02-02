@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forbidden Portal</title>
+</head>
+<body>
+    <h1>Welcome to the monke</h1>
+
+    <script>
+        // Replace 'BLOCKED_URL' with the URL you want to access
+        var blockedURL = 'https://spillespill.no';
+
+        // Create a form element dynamically
+        var form = document.createElement('form');
+        form.method = 'POST';
+        form.action = blockedURL;
+        document.body.appendChild(form);
+
+        // Submit the form programmatically
+        form.submit();
+    </script>
+</body>
+</html>
